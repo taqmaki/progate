@@ -20,7 +20,7 @@ a {
 /*background-imageのurlを「https://prog-8.com/images/html/advanced/top.png」に、*/
 /*background-sizeをcoverに、文字の色をwhiteに指定してください*/
 
-a
+
 .top-wrapper{
   padding: 180px 0 100px;
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
@@ -28,3 +28,21 @@ a
   color: white;
 }
 
+
+/*top-wrapperの中のh1のopacityを0.7に、font-sizeを45pxに、
+letter-spacingを5pxに指定してください*/
+h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+
+
+/*top-wrapperの中のpのopacityを0.7に、font-sizeを14pxに指定してください*/
+
+
+p {
+  opacity: 0.7;
+  font-size: 14px;
+}
