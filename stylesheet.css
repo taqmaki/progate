@@ -46,3 +46,46 @@ p {
   opacity: 0.7;
   font-size: 14px;
 }
+
+
+/*btn-wrapperクラスの上下のmarginを20pxに指定してください*/
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+
+/*btn-wrapperクラスの中にあるpの上下のmarginを10pxに指定してください*/
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+/*signupクラスのbackground-colorを#239b76に指定してください*/
+.signup {
+  background-color: #239b76;
+}
+
+
+/*facebookクラスのbackground-colorを#3b5998に指定してください*/
+/*facebookクラスのmargin-rightを10pxに指定してください*/
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/*twitterクラスのbackground-colorを#55aceeに指定してください*/
+.twitter {
+  background-color: #55acee;
+}
+
+/*btnクラスの上下のpaddingを8px、左右のpaddingを24pxに、
+文字の色をwhiteに、displayをinline-blockに、
+opacityを0.8に指定してください*/
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+
