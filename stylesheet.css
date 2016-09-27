@@ -86,6 +86,21 @@ opacityを0.8に指定してください*/
   color: white;
   display: inline-block;
   opacity: 0.8;
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  /*border-radiusを4pxに指定してください*/
+  border-radius: 4px;
 }
 
+/*btnクラスのhoverした時のopacityを1に指定してください*/
+.btn:hover {
+  opacity: 1;
+}
 
+/*top-wrapperクラスのtext-alignをcenterに指定してください*/
+.top-wrapper {
+  text-align: center;
+}
