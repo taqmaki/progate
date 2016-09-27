@@ -104,3 +104,8 @@ opacityを0.8に指定してください*/
 .top-wrapper {
   text-align: center;
 }
+
+/*faクラスのmargin-rightを5pxに指定してください*/
+.fa {
+  margin-right: 5px;
+}
