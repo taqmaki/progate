@@ -109,3 +109,19 @@ opacityを0.8に指定してください*/
 .fa {
   margin-right: 5px;
 }
+
+/*headerの高さを65pxに、幅を100%に、
+背景色をrgba(34,49,52,0.9)に指定してください*/
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+}
+
+
+/*logoクラスの幅を124pxに、margin-topを20pxに指定してください*/
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
