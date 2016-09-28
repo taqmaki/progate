@@ -125,3 +125,22 @@ header {
   margin-top: 20px;
 }
 
+
+/*header-leftクラスを左にfloatさせてください*/
+.header-left {
+  float: left;
+}
+
+/*header-rightクラスを右にfloatさせて、
+背景色をrgba(255,255,255,0.3)に指定してください*/
+.header-right{
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+}
+
+/*header-rightクラスにhoverさせた時の
+背景色をrgba(255,255,255,0.5)に指定してください*/
+.header-right:hover{
+  background-color: rgba(255,255,255,0.5);
+}
+
