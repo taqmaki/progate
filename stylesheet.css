@@ -210,3 +210,10 @@ font-sizeを12pxに、文字色を#b3aeb5に指定してください*/
   font-size: 12px;
   color: #b3aeb5;
 }
+
+/*headingの中のh3のfont-weightをnormalに指定してください*/
+.heading h3{
+  font-weight: normal;
+}
+
+
