@@ -164,6 +164,7 @@ line-heightを65pxに、左右のpaddingを25pxに、
   height: 500px;
   padding-bottom: 80px;
   background-color: #f7f7f7
+  text-align: center;
 }
 
 /*headingクラスのpadding-topを60px,padding-bottomを30pxに、
@@ -186,3 +187,26 @@ line-heightを65pxに、左右のpaddingを25pxに、
   width: 25%;
 }
 
+/*lesson-iconクラスのpositionをrelativeに指定してください*/
+.lesson-icon{
+  position: relative;
+}
+
+/*lesson-iconの中のpのpositionをabsoluteに、topを90pxに、幅を100%に、
+文字色をwhiteに指定してください*/
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+/*txt-contentsクラスの幅を80%に、displayをinline-blockに、上のmarginを20pxに、
+font-sizeを12pxに、文字色を#b3aeb5に指定してください*/
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin: 20px 0 0 0;
+  font-size: 12px;
+  color: #b3aeb5;
+}
