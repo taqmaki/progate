@@ -216,4 +216,22 @@ font-sizeを12pxに、文字色を#b3aeb5に指定してください*/
   font-weight: normal;
 }
 
+/*message-wrapperクラスのborder-bottomを1px solid #eeeに、padding-bottomを80pxに、
+text-alignをcenterに指定してください*/
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/*messageクラスの上下のpaddingを15px,左右のpaddingを40pxに、背景色を#5dca88に、
+cursorをpointerに指定してください
+また、水平方向0px,垂直方向7px,色#1a7940のbox-shadowをつけてください*/
+.message{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
 
