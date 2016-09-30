@@ -155,3 +155,27 @@ line-heightを65pxに、左右のpaddingを25pxに、
   color: white;
   display: block;
 }
+
+
+
+/*lesson-wrapperクラスの高さを500pxに、padding-bottomを80pxに、
+背景色を#f7f7f7に指定してください*/
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7
+}
+
+/*headingクラスのpadding-topを60px,padding-bottomを30pxに、
+文字の色を#5f5d60に指定してください*/
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+/*headingの中のh2のfont-weightをnormalに指定してください*/
+.heading h2{
+  font-weight: normal;
+}
+
