@@ -179,3 +179,10 @@ line-heightを65pxに、左右のpaddingを25pxに、
   font-weight: normal;
 }
 
+
+/*lessonクラスを左にfloatさせて、widthを25%に指定してください*/
+.lesson {
+  float: left;
+  width: 25%;
+}
+
