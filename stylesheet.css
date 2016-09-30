@@ -116,6 +116,13 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
+    /*positionプロパティをfixedに、topを0に指定してください*/
+  position: fixed;
+  top: 0;
+  
+  /*z-indexを10に指定してください*/
+  z-index: 10;
+  
 }
 
 
@@ -239,3 +246,23 @@ cursorをpointerに指定してください
   top: 7px;
   box-shadow: none;
 }
+
+
+/*footerの中のimgのwidthを125pxに指定してください*/
+footer img{
+  width: 125px;
+}
+
+/*footerの中のpのcolorを#b3aeb5に、font-sizeを12pxに指定してください*/
+footer p{
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+/*footerのpadding-topを30pxに指定してください*/
+footer{
+  padding-top: 30px;
+}
+
+
+
