@@ -133,14 +133,25 @@ header {
 
 /*header-rightクラスを右にfloatさせて、
 背景色をrgba(255,255,255,0.3)に指定してください*/
-.header-right{
+
+.header-right {
   float: right;
   background-color: rgba(255,255,255,0.3);
+  /*transitionを指定してください*/
+  transition: all 0.5s;
 }
 
-/*header-rightクラスにhoverさせた時の
-背景色をrgba(255,255,255,0.5)に指定してください*/
-.header-right:hover{
+.header-right:hover {
   background-color: rgba(255,255,255,0.5);
 }
 
+/*header-rightの中のaの
+line-heightを65pxに、左右のpaddingを25pxに、
+文字の色をwhiteに指定してください
+また、このaをブロック要素に変更してください。*/
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
